@@ -65,12 +65,12 @@
           </elementProp>
           <elementProp name="filesDirectoryusers" elementType="Argument">
             <stringProp name="Argument.name">filesDirectoryusers</stringProp>
-            <stringProp name="Argument.value">D:\scripts\50 user test run\users per function</stringProp>
+            <stringProp name="Argument.value">C:\Users\Mohamed.Zahran\Desktop\Jmeterscripts-master\users per function</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="filesDirectoryData" elementType="Argument">
             <stringProp name="Argument.name">filesDirectoryData</stringProp>
-            <stringProp name="Argument.value">D:\scripts\50 user test run\data per function</stringProp>
+            <stringProp name="Argument.value">C:\Users\Mohamed.Zahran\Desktop\Jmeterscripts-master\data per function</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="runtime " elementType="Argument">
@@ -12334,7 +12334,7 @@
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">10</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">19</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">60</stringProp>
         <longProp name="ThreadGroup.start_time">1370726934000</longProp>
         <longProp name="ThreadGroup.end_time">1370726934000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -12552,7 +12552,7 @@
             <hashTree/>
           </hashTree>
           <RunTime guiclass="RunTimeGui" testclass="RunTime" testname="Runtime Controller" enabled="true">
-            <stringProp name="RunTime.seconds">1800</stringProp>
+            <stringProp name="RunTime.seconds">900</stringProp>
           </RunTime>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="navigate to function-issuance maker" enabled="true">
